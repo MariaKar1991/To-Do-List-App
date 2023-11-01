@@ -7,20 +7,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Main container div -->
     <div class="container">
+      <!-- To-Do List app container -->
       <div class="todo-app">
+        <!-- Heading with a To-Do List title and an icon -->
         <h2>To-Do List <img src="images/icon.png" /></h2>
+        <!-- Input row for adding tasks -->
         <div class="row">
+          <!-- Text input for adding new tasks -->
           <input type="text" id="input-box" placeholder="Add your text" />
+          <!-- Button to add a new task, linked to addTask() function -->
           <button onclick="addTask()">Add</button>
         </div>
+        <!-- Container for the list of tasks -->
         <ul id="list-container">
+          <!-- List items (tasks) will be dynamically added here -->
+          <!-- Example tasks are commented out -->
           <!-- <li class="checked">Task 1</li>
           <li>Task 2</li>
           <li>Task 3</li> -->
         </ul>
       </div>
     </div>
+    <!-- Script tag linking to external JavaScript file -->
     <script src="script.js"></script>
   </body>
 </html>
